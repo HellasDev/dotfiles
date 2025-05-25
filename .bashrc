@@ -52,7 +52,7 @@ export EDITOR=nvim
 export TERMINAL=kitty
 
 # pnpm
-export PNPM_HOME="/home/shaicho/.local/share/pnpm"
+export PNPM_HOME="$HOME/.local/share/pnpm"
 case ":$PATH:" in
   *":$PNPM_HOME:"*) ;;
   *) export PATH="$PNPM_HOME:$PATH" ;;
